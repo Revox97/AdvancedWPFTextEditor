@@ -13,5 +13,8 @@
     <Page Update="View\ToolStrip\ToolStrip.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="View\ToolStrip\ToolStripButton.xaml">
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 </Project>

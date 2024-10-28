@@ -1,12 +1,20 @@
-﻿<UserControl x:Class="AdvancedWPFTextEditor.View.ToolStrip"
+﻿<UserControl x:Class="AdvancedWPFTextEditor.View.ToolStrip.ToolStrip"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             xmlns:local="clr-namespace:AdvancedWPFTextEditor.View"
+             xmlns:local="clr-namespace:AdvancedWPFTextEditor.View.ToolStrip"
              mc:Ignorable="d" 
-             d:DesignHeight="100" d:DesignWidth="1000">
+             d:DesignHeight="100" d:DesignWidth="1000" Background="Green">
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="ToolStripButton.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </UserControl.Resources>
     <StackPanel Orientation="Horizontal">
+        <Button Template="{StaticResource ToolStripButton}" Width="100" Height="100" Padding="10" Background="Transparent" Foreground="Black"/>
         <Label>B</Label>
         <Label>I</Label>
         <Label>U</Label>
