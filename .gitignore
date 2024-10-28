@@ -396,5 +396,6 @@ FodyWeavers.xsd
 
 /.vs/AdvancedWPFTextEditor
 /AdvancedWPFTextEditor/obj
+/.vs
 # JetBrains Rider
 *.sln.iml
