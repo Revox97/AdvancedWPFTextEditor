@@ -2,7 +2,7 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup />
   <ItemGroup>
-    <Compile Update="View\ToolStrip.xaml.cs">
+    <Compile Update="View\ToolStrip\ToolStrip.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -10,7 +10,7 @@
     <Page Update="AdvancedWPFTextEditor.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="View\ToolStrip.xaml">
+    <Page Update="View\ToolStrip\ToolStrip.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
